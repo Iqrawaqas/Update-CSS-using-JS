@@ -1,0 +1,39 @@
+:root {
+    --spacing : 10px;
+    --blur : 3px;
+    --base : #950740;
+}
+
+body {
+    background-color: powderblue;
+    font-family: 'Grandstander', cursive;
+}
+
+
+
+h1, label, input {
+    text-align: center;  
+}
+
+
+main {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+label, input {
+    margin-top: 3em;
+}
+img {
+    width: 40%;
+    height: 50%;
+    margin-top: 1.5em;  
+    padding: var(--spacing); /* -- is css standard here for using a var */
+    background-color: var(--base);
+    filter : blur(var(--blur));
+}
+.JS {
+    color: var(--base);
+}
