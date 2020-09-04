@@ -6,4 +6,4 @@ Today I have made a small project of updating CSS by using Javascript. The funct
 3. how to add different colors around an image. 
 All of these CSS properties are updated based on Javascript.
 
-Here I followed webos tutorials.
+Here I followed wesbos tutorials.
